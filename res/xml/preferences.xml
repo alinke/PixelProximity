@@ -42,6 +42,73 @@
     android:dialogTitle="@string/dialogTitleMatrix"
     android:defaultValue="@string/matrix_default_value" />
     
+    <CheckBoxPreference
+    android:title="@string/ProxOn"
+    android:key="pref_ProxOn"
+    android:defaultValue="@string/pref_ProxOn"
+    android:summary="@string/ProxOnSummary"/>
+    
+     <CheckBoxPreference
+    android:title="@string/redrum"
+    android:key="pref_redrum"
+    android:defaultValue="@string/pref_redrum"
+    android:summary="@string/redrumSummary"/>
+    
+    <CheckBoxPreference
+    android:title="@string/showProxValue"
+    android:key="pref_showProxValue"
+    android:defaultValue="@string/pref_showProxValue"
+    android:summary="@string/showProxValueSummary"/>
+    
+   
+    
+   <EditTextPreference
+   android:title="@string/proximityThresholdLower"
+   android:key="@string/pref_proxThresholdLower"
+   android:numeric="integer"
+   android:maxLength="3"
+   android:defaultValue="@string/proximityThresholdLowerDefault"
+   android:summary="@string/proximityThresholdLowerSummary"/>
+   
+   <EditTextPreference
+   android:title="@string/proximityThresholdUpper"
+   android:key="@string/pref_proxThresholdUpper"
+   android:numeric="integer"
+   android:maxLength="3"
+   android:defaultValue="@string/proximityThresholdUpperDefault"
+   android:summary="@string/proximityThresholdUpperSummary"/>
+   
+   <EditTextPreference
+   android:title="@string/proximityPin"
+   android:key="@string/pref_proximityPin"
+   android:numeric="integer"
+   android:maxLength="2"
+   android:defaultValue="@string/proximityPinDefault"
+   android:summary="@string/proximityPinSummary"/>
+   
+    <EditTextPreference
+   android:title="@string/ProximageDisplayDuration"
+   android:key="@string/pref_ProximageDisplayDuration"
+   android:numeric="integer"
+   android:maxLength="3"
+   android:defaultValue="@string/ProximageDisplayDurationDefault"
+   android:summary="@string/ProximageDisplayDurationSummary"/>
+   
+   	<EditTextPreference
+    android:title="@string/ProxpauseBetweenImagesDuration"
+    android:key="@string/pref_ProxpauseBetweenImagesDuration"
+    android:numeric="integer"
+    android:maxLength="3"
+    android:defaultValue="@string/ProxpauseBetweenImagesDurationDefault"
+    android:summary="@string/ProxpauseBetweenImagesDurationSummary"/>     
+    
+   	<CheckBoxPreference
+    android:title="@string/debugMode"
+    android:key="pref_debugMode"
+    android:defaultValue="@string/pref_debugModeDefault"
+    android:summary="@string/debugModeSummary"/>  
+   
+    
     
     <PreferenceCategory
     android:title="@string/slideShowtitle"  
