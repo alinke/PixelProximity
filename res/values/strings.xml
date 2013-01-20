@@ -1,12 +1,12 @@
 <resources>
 
-    <string name="app_name">Pixel Proximity</string>
+    <string name="app_name">PIXEL Proximity</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">MainActivity</string>
     
     <string name="menu_about_title">About</string> 
-    <string name="menu_about_summary">More info at http://droidalyzer.com/ioiomatrix.html\n\nDesigned by Open Gadgets LLC</string>
+    <string name="menu_about_summary">http://ledpixelart.com\n\nDesigned by Open Gadgets LLC</string>
     <string name="versionString">Version</string> 
     
    <string name="oneTimeSetupString">One Time Setup: Copying stock images to your SD card.</string> 
@@ -14,25 +14,25 @@
     
    
    <string name="menu_instructions_title">Instructions</string>
-   <string name="setupInstructionsString">First pair your Android device to the Pixel LED frame which will show up as \'IOIO\' in Bluetooth using code 4545.\n\nTap an image to display it on the Pixel LED frame.\n\nSwipe from left to right to start a Slide Show and swipe from right to left to stop the Slide Show.\n\nNote the last image will remain displayed on the Pixel LED Frame even after your Android device is switched off.\n\nFollow the instructions below to add your own images to this app:\n\nConnect your Android device to your computer with a USB cable.\n\nFrom your computer, open your Android device and copy your images to the pixel/pixelproximity folder of your SD card or internal storage if your device does not have a removeable SD card.\n\nAfter done copying, select Rescan from this app\'s menu\n\nYou can also delete the sample images leaving only your images.\n\nYou\&apos;ll get the best results by pre-scaling your images to 32x32 resolution.\n\nAny image not in 32x32 resolution will be scaled automatically to 32x32.</string>
+   <string name="setupInstructionsString">First pair your Android device to PIXEL which will show up as \'IOIO\' in Bluetooth using code 4545.\n\nTap an image to display it on PIXEL.\n\nSwipe from left to right to start a Slide Show and swipe from right to left to stop the Slide Show.\n\nNote the last image will remain displayed on the Pixel LED Frame even after your Android device is switched off.\n\nFollow the instructions below to add your own images to this app:\n\nConnect your Android device to your computer with a USB cable.\n\nFrom your computer, open your Android device and copy your images to the pixel/pixelproximity folder of your SD card or internal storage if your device does not have a removeable SD card.\n\nAfter done copying, select Rescan from this app\'s menu\n\nYou can also delete the sample images leaving only your images.\n\nYou\&apos;ll get the best results by pre-scaling your images to 32x32 resolution.\n\nAny image not in 32x32 resolution will be scaled automatically to 32x32.</string>
    <string name="setupInstructionsStringTitle">Instructions</string>   
      
      
-    <string name="prefTitle">Pixel Proximity Settings</string>
+    <string name="prefTitle">PIXEL Proximity Settings</string>
     <string name="menu_prefs_title">Settings</string>
-    <string name="prefSummary">Pixel Proximity Settings</string>
+    <string name="prefSummary">PIXEL Proximity Settings</string>
     
     <string name="scanAll">Show All Album Pics</string>
     <string name="pref_scanAll_default">false</string>
     <string name="scanAllSummary">Only images in the pixel/pixelproximity folder of your SD card will be displayed. Checking this box displays all SD card pictures.</string>
   
     <string name="OKText">OK</string>   
-    <string name="notFoundString">Pixel LED Frame Not Found</string>   
+    <string name="notFoundString">PIXEL Not Found</string>   
    
     <string name="selected_matrix">selected_matrix</string>
-    <string name="matrix">LED Matrix Selection</string>
-    <string name="matrixSummary">Select your RGB LED Matrix model</string>    
-    <string name="dialogTitleMatrix">LED Matrix Selection</string>
+    <string name="matrix">LED Panel Selection</string>
+    <string name="matrixSummary">Select your LED Panel model</string>    
+    <string name="dialogTitleMatrix">LED Panel Selection</string>
     <string name="matrix_default_value">3</string>   
     
     <string name="bluetooth_pair">Blueooth Pairing</string>
@@ -123,7 +123,7 @@
     <string name="pref_redrum">false</string>
     <string name="redrumSummary">Turns on Redrum Animation Mode</string>
     
-    <string name="proxDataInfoMsg">Proximity sensor data is shown below, stand in front of the Pixel LED frame from the desired distance where you want the images to trigger.\n\nNote that the proximity sensor has a limited range of around 30cm.\n\nThen save this proximity range by entering the Prox Threshold Lower and Prox Threshold Upper setting values in this app\&apos;s settings.\n\nUncheck the Show Prox Sensor Data box to get back to normal operation from this app\&apos;s settings and then re-start this app.</string>
+    <string name="proxDataInfoMsg">Proximity sensor data is shown below, stand in front of PIXEL from the desired distance where you want the images to trigger.\n\nNote that the proximity sensor has a limited range of around 30cm.\n\nThen save this proximity range by entering the Prox Threshold Lower and Prox Threshold Upper setting values in this app\&apos;s settings.\n\nUncheck the Show Prox Sensor Data box to get back to normal operation from this app\&apos;s settings and then re-start this app.</string>
     
      
 </resources>

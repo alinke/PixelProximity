@@ -850,10 +850,6 @@ public class MainActivity extends IOIOActivity implements OnItemClickListener  {
      				this.startActivityForResult(intent, 1);
         }   	
     	
-    
-    	
-    	
-    	
     	
        return true;
     }
