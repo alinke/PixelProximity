@@ -91,18 +91,18 @@ public class MainActivity extends IOIOActivity implements OnItemClickListener  {
     private String filename;
     private static final String LOG_TAG = "PixelProximity";	  	
   	private int z = 1;
-  	private short[] frame_ = new short[512];
-  	private short[] rgb_;
+  	private short[] frame_;
+  	//private short[] rgb_;
   	public static final Bitmap.Config FAST_BITMAP_CONFIG = Bitmap.Config.RGB_565;
-  	private Bitmap frame1;
+  	//private Bitmap frame1;
   	private byte[] BitmapBytes;
-  	private byte[] BitmayArray;
-  	private byte[] dotArray;
+  	//private byte[] BitmayArray;
+  	//private byte[] dotArray;
   	private InputStream BitmapInputStream;
-  	private ByteBuffer bBuffer;
-  	private ShortBuffer sBuffer;
-  	private SensorManager mSensorManager;
-  	private Random randomGenerator = new Random();
+  //	private ByteBuffer bBuffer;
+  //	private ShortBuffer sBuffer;
+  //	private SensorManager mSensorManager;
+  //	private Random randomGenerator = new Random();
   	private Bitmap canvasBitmap;
   	private Bitmap originalImage;
   	private int width_original;
@@ -322,7 +322,7 @@ public class MainActivity extends IOIOActivity implements OnItemClickListener  {
         }
     }
     
-    private void showProxValue() {
+    private void showProxValue() {  //if show the prox sensor is on
     	sdcardImages.setVisibility(View.INVISIBLE);
     	
     	setProxInfoText(getString(R.string.proxDataInfoMsg)); //shows an info message so the user knows what's happening

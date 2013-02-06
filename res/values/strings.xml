@@ -1,6 +1,6 @@
 <resources>
 
-    <string name="app_name">PIXEL Proximity</string>
+    <string name="app_name">PIXEL Halloween Proximity</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">MainActivity</string>
@@ -98,7 +98,7 @@
     
      <string name="proximityThresholdUpper">Prox Threshold Upper</string>    
     <string name="pref_proxThresholdUpper">pref_proxThresholdUpper</string>
-    <string name="proximityThresholdUpperDefault">180</string>
+    <string name="proximityThresholdUpperDefault">400</string>
     <string name="proximityThresholdUpperSummary">An image will display when the proximity sensor value falls between the lower and upper thresholds</string>
     
     <string name="proximityPin">Proximity Pin</string>    
